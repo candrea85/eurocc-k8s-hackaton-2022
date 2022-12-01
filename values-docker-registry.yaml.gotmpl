@@ -4,6 +4,9 @@ persistence:
 updateStrategy: 
   type: Recreate
 
+secrets:
+  htpasswd: "loki:$2y$05$bIL34SrofaBDXA401hpX0uHBnjUEvzEAuM6BJ28nyDPTuhm29e/NC"
+
 ingress:
   enabled: true
   hosts:
